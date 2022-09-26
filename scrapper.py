@@ -1,10 +1,10 @@
 import pandas as pd
 import tweepy
 
-consumer_key = "Bd3SYQf1qyii2Jwozbo2mpf82" #Your API/Consumer key 
-consumer_secret = "C88VdHpuJlSXGqOX7Mie6hPBlO2PeIJMK5O2LBHdnrb6ZhCYJS" #Your API/Consumer Secret Key
-access_token = "1268492843972202496-qsabdCan7iDXQdsO2u63PKQfefQsDv"    #Your Access token key
-access_token_secret = "fFixH1t495jafr0nSpZ7nLNZea26xOfUWnetYTUbkvqKD" #Your Access token Secret key
+consumer_key = "*********" #Your API/Consumer key 
+consumer_secret = "********" #Your API/Consumer Secret Key
+access_token = "*********"    #Your Access token key
+access_token_secret = "*********" #Your Access token Secret key
 
 #Pass in our twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
