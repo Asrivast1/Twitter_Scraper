@@ -12,19 +12,24 @@ Before using this script, you need to have Twitter's developer account to obtain
 
 ## Installation
 1. Clone the repository:
-     > git clone https://github.com/yourusername/your-repo.git
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
 
-2. Create a virtual environment to isolate the project dependencies:
-     > python -m venv myenv
+3. Create a virtual environment to isolate the project dependencies:
+   ```bash
+   python -m venv myenv
 
-3. Activate the virtual environment:
+5. Activate the virtual environment:
      - On Windows:
+       ```bash
 
-          > myenv\Scripts\activate
+       myenv\Scripts\activate
      - On macOS and Linux:
-          > source myenv/bin/activate
-4. Install the required libraries from the requirements.txt file:
-      > pip install -r requirements.txt
+       ```bash
+       source myenv/bin/activate
+6. Install the required libraries from the requirements.txt file:
+   ```bash
+   pip install -r requirements.txt
 1. Replace the placeholders in the script with your Twitter API keys.
 
 ## Usage
@@ -38,3 +43,5 @@ The script will search for tweets based on the specified keywords and store the 
 
 ## Disclaimer
 Please be mindful of Twitter's terms of service and rate limits. This script is for educational purposes and should be used responsibly and in compliance with Twitter's API usage policies.
+
+#### Do consider to star this project if you find it useful ⭐
